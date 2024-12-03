@@ -1,0 +1,163 @@
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: #00ff00;
+  width: 100%;
+  height: 100px;
+}
+
+.menu img {
+  width: 30px;
+}
+
+.menu a {
+  margin-left: 15px;
+}
+
+.menu-botoes {
+  margin-top: 25vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Impact;
+  color: black;
+  font-size: 48px;
+  margin-left: 43vw;
+}
+
+.botoes button{
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 90px;
+  margin: 20px;
+  background-color: #00ff00;
+  color: black;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botoes a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.dadosFuncionalidade {
+  padding: 0;
+  height: 100px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.dadosFuncionalidade label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  border: 1px solid black;
+}
+
+.dadosFuncionalidade input {
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  height: 100%;
+}
+
+.dadosProjeto {
+  padding: 0;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+
+}
+
+.dadosFuncionalidade button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 90px;
+  margin: 20px;
+  background-color: #00ff00;
+  color: black;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dadosProjeto,  textarea {
+  width: 75%;
+}
+
+.dadosProjeto label {
+  color: white;
+}
+
+.infosProjetoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.infosProjeto {
+  color: white;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid white;
+  height: 306px;
+  min-width: 300px;
+}
+
+.infosProjeto input {
+  width: 300px;
+  height: 30px;
+}
+
+.infosProjeto textarea {
+  width: 75%;
+  height: 50%;
+}
+
+.assinaturaProjeto {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  font-size: 15px;
+  height: 50px;
+}
+
+.assinaturaProjeto p {
+  padding-right: 10px;
+
+}
+
+.idProjeto {
+  position: absolute;
+  top: 0;
+  padding-bottom: 20px;
+}
+
+.idProjeto h1 {
+  font-size: 20px;
+}
+
+.deletar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.deletar button {
+  background: none;
+  border: none;
+}
